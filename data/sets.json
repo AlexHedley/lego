@@ -55,6 +55,14 @@
             "link":"https://www.lego.com/en-gb/product/the-big-bang-theory-21302",
             "image":"images/21302.jpeg",
             "category":"Ideas"
+        },
+        {
+            "name":"Yellow Submarine",
+            "description":"Yellow Submarine",
+            "number":21306,
+            "link":"https://www.lego.com/en-gb/product/yellow-submarine-21306",
+            "image":"images/21306.jpeg",
+            "category":"Ideas"
         }
     ]
 }
