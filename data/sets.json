@@ -63,6 +63,14 @@
             "link":"https://www.lego.com/en-gb/product/yellow-submarine-21306",
             "image":"images/21306.jpeg",
             "category":"Ideas"
+        },
+        {
+            "name":"Dinosaur Fossils",
+            "description":"Dinosaur Fossils",
+            "number":21320,
+            "link":"https://www.lego.com/en-gb/product/dinosaur-fossils-21320",
+            "image":"images/21320.jpeg",
+            "category":"Ideas"
         }
     ]
 }
