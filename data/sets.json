@@ -81,6 +81,38 @@
             "category":"Ideas"
         },
         {
+            "name":"Mosaic Maker",
+            "description":"Mosaic Maker",
+            "number":1,
+            "link":"https://www.lego.com/en-gb/stores/events/mosaic-maker-lsq-d2ddc5c559b349268ccc3a4013156bf9",
+            "image":"images/Mosaic.jpeg",
+            "category":"Experience"
+        },
+        {
+            "name":"LEGO® Trains 40th Anniversary Set",
+            "description":"LEGO® Trains 40th Anniversary Set",
+            "number":40370,
+            "link":"https://www.lego.com/en-au/service/buildinginstructions/search?initialsearch=40370#?text=40370",
+            "image":"images/40370.jpeg",
+            "category":"Gift"
+        },
+        {
+            "name":"James Bond™ Aston Martin DB5",
+            "description":"James Bond™ Aston Martin DB5",
+            "number":10262,
+            "link":"https://www.lego.com/en-gb/product/james-bond-aston-martin-db5-10262",
+            "image":"images/10262.jpeg",
+            "category":"Creator"
+        },
+        {
+            "name":"Nintendo Entertainment System™",
+            "description":"Nintendo Entertainment System™",
+            "number":71374,
+            "link":"https://www.lego.com/en-gb/product/nintendo-entertainment-system-71374",
+            "image":"images/71374.jpeg",
+            "category":"Creator"
+        },
+        {
             "name":"Ship in a Bottle",
             "description":"Ship in a Bottle",
             "number":21313,
