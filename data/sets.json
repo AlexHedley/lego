@@ -119,6 +119,14 @@
             "link":"https://www.lego.com/en-gb/product/ship-in-a-bottle-21313",
             "image":"images/21313.jpg",
             "category":"Ideas"
+        } ,
+        {
+            "name":"Volkswagen T2 Camper Van",
+            "description":"",
+            "number":10279,
+            "link":"https://www.lego.com/en-gb/product/volkswagen-t2-camper-van-10279",
+            "image":"images/10279.jpeg",
+            "category":"Creator Expert"
         }
     ]
 }
