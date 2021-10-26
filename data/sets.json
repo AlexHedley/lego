@@ -127,6 +127,15 @@
             "link":"https://www.lego.com/en-gb/product/volkswagen-t2-camper-van-10279",
             "image":"images/10279.jpeg",
             "category":"Creator Expert"
+        },
+        {
+            "name":"Trophy",
+            "description":"",
+            "number":40385,
+            "link":"https://www.lego.com/en-gb/product/trophy-40385",
+            "image":"images/40385.jpeg",
+            "category":"Other"
         }
+        
     ]
 }
