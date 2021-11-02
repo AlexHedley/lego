@@ -135,7 +135,22 @@
             "link":"https://www.lego.com/en-gb/product/trophy-40385",
             "image":"images/40385.jpg",
             "category":"Other"
+        },
+        {
+            "name":"Angel of the North",
+            "description":"An absolute icon of the North! Antony Gormley's sculpture in Gateshead is one of the most viewed pieces of artwork in the world.\nThis model contains 410 piece and measures 45 x 13 cm x 23 cm height.\nYou get a complete set of all parts, a printed instruction booklet, and a signed and numbered presentation box. ",
+            "number":1,
+            "link":"https://buildablebybrickthis.com/collections/limited-edition-boxed-sets/products/angel-of-the-north-boxed-set",
+            "image":"images/Angel_box.jpg",
+            "category":"Buildable by BrickThis"
+        },
+        {
+            "name":"Spanish City",
+            "description":"Spanish City is one of the most recognisable landmarks on the Tyne and Wear coast, with its impressive dome and Renaissance-style façade. It was originally opened in 1910 but when I moved to the North East in 2000 it was in a sorry state of repair and had just closed to the public. In 2018 it was finally reopened after a massive redevelopment project and once again is the jewel in Whitley Bay's crown!\nThis LEGO set has been a pleasure to design, and continues a trend of increasing size of my sets; this one clocks in at around 1,000 pieces and measures 32x18cm (x20 cm high).\nWhilst instantly recognisable to locals, its also possibly my most niche model so far. Therefore I'm taking a different approach to sales. This set is made-to-order. Please allow 2-4 weeks for delivery (though first batch will be shipped late September).\nAs with all my boxed sets, it comes in a high-quality presentation box (which is signed and numbered), a printed booklet and all the parts to complete the build.",
+            "number":8,
+            "link":"https://buildablebybrickthis.com/collections/limited-edition-boxed-sets/products/spanish-city-boxed-set",
+            "image":"images/SpanishCity_box.jpg",
+            "category":"Buildable by BrickThis"
         }
-        
     ]
 }
