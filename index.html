@@ -90,7 +90,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">{{set.name}} <span class="badge badge-secondary">{{set.number}}</span></h5>
                                 <p class="card-text">{{set.description}}</p>
-                                <a ng-href="{{set.link}}" target="_blank" class="btn btn-primary">Official Link</a>
+                                <a ng-if="set.link.length > 0" ng-href="{{set.link}}" target="_blank" class="btn btn-primary">Official Link</a>
                             </div>
                         </div>
                     </div>
