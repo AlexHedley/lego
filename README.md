@@ -13,3 +13,17 @@
 Lego
 
 - [Site](https://alexhedley.github.io/lego/)
+
+## Run
+
+`py -m http.server`
+
+- [local](http://localhost:8000/)
+
+## License
+
+- [MIT License](LICENSE)
+
+## Acknowledgements
+
+- [ACKNOWLEDGEMENTS](ACKNOWLEDGEMENTS.md)
