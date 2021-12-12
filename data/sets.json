@@ -153,6 +153,26 @@
             "link":"https://buildablebybrickthis.com/collections/limited-edition-boxed-sets/products/spanish-city-boxed-set",
             "image":"images/SpanishCity_box.jpg",
             "category":"Buildable by BrickThis"
+        },
+        {
+            "name":"Ice Skating Rink",
+            "description":"",
+            "longDescription":"",
+            "number":40416,
+            "link":"https://www.lego.com/en-gb/product/ice-skating-rink-40416",
+            "image":"images/40416.jpeg",
+            "category":"Limited Edition",
+            "price": "£17.99"
+        },
+        {
+            "name":"Winter Skating Scene",
+            "description":"2014",
+            "longDescription":"",
+            "number":40107,
+            "link":"",
+            "instructions": "https://www.lego.com/en-gb/service/buildinginstructions/40107",
+            "image":"images/40107.jpeg",
+            "category":"Limited Edition"
         }
     ]
 }
