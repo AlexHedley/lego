@@ -203,6 +203,16 @@
             "image":"images/10302.png",
             "category":"icons",
             "price": "£149.99"
+        },
+        {
+            "name":"Sonic the Hedgehog™ – Green Hill Zone",
+            "description":"1125 Pieces",
+            "longDescription":"",
+            "number":21331,
+            "link":"https://www.lego.com/en-gb/product/sonic-the-hedgehog-green-hill-zone-21331",
+            "image":"images/21331.png",
+            "category":"Ideas",
+            "price": "£59.99"
         }
     ]
 }
