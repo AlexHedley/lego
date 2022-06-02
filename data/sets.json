@@ -213,6 +213,28 @@
             "image":"images/21331.png",
             "category":"Ideas",
             "price": "£59.99"
+        },
+        {
+            "name":"Cosmic Cardboard Adventures",
+            "description":"203 Pieces",
+            "longDescription":"",
+            "number":40533,
+            "link":"",
+            "instructions": "https://www.lego.com/en-gb/service/buildinginstructions/40533",
+            "image":"images/40533.jpg",
+            "category":"Ideas",
+            "price": "£."
+        },
+        {
+            "name":"LEGO® Children's Amusement Park",
+            "description":"2022",
+            "longDescription":"",
+            "number":40529,
+            "link":"",
+            "instructions": "https://www.lego.com/en-gb/service/buildinginstructions/40529",
+            "image":"images/40529.png",
+            "category":"Ideas",
+            "price": "£."
         }
     ]
 }
