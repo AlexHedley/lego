@@ -183,6 +183,26 @@
             "image":"images/21058.png",
             "category":"Architecture",
             "price": "£124.99"
+        },
+        {
+            "name":"Great Pyramid of Giza",
+            "description":"1st June 2022",
+            "longDescription":"",
+            "number":21058,
+            "link":"https://www.lego.com/en-gb/product/great-pyramid-of-giza-21058",
+            "image":"images/21058.png",
+            "category":"Architecture",
+            "price": "£124.99"
+        },
+        {
+            "name":"Optimus Prime",
+            "description":"1st June 2022",
+            "longDescription":"",
+            "number":10302,
+            "link":"https://www.lego.com/en-gb/product/optimus-prime-10302",
+            "image":"images/10302.png",
+            "category":"icons",
+            "price": "£149.99"
         }
     ]
 }
