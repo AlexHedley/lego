@@ -173,6 +173,16 @@
             "instructions": "https://www.lego.com/en-gb/service/buildinginstructions/40107",
             "image":"images/40107.jpg",
             "category":"Limited Edition"
+        },
+        {
+            "name":"Great Pyramid of Giza",
+            "description":"1st June 2022",
+            "longDescription":"",
+            "number":21058,
+            "link":"https://www.lego.com/en-gb/product/great-pyramid-of-giza-21058",
+            "image":"images/21058.png",
+            "category":"Architecture",
+            "price": "£124.99"
         }
     ]
 }
