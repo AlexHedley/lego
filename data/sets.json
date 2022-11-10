@@ -257,6 +257,18 @@
             "category":"Super Mario",
             "price": "172.49",
             "rrp": "229.99"
+        },
+        {
+            "name":"Medieval Blacksmith",
+            "description":"",
+            "longDescription":"",
+            "number":21325,
+            "link":"https://www.lego.com/en-gb/product/medieval-blacksmith-21325",
+            "instructions": "",
+            "image":"images/21325.png",
+            "category":"Ideas",
+            "price": "119.99",
+            "rrp": "159.99"
         }
     ]
 }
