@@ -1,0 +1,52 @@
+{
+    "sets": [
+        {
+            "name":"Jazz Quartet",
+            "description":"",
+            "longDescription":"",
+            "number":21325,
+            "link":"https://www.lego.com/en-gb/product/jazz-quartet-21334",
+            "instructions": "",
+            "image":"images/21325.png",
+            "category":"Ideas",
+            "price": "89.99",
+            "rrp": "89.99"
+        },
+        {
+            "name":"Orchid",
+            "description":"",
+            "longDescription":"",
+            "number":10311,
+            "link":"https://www.lego.com/en-gb/product/orchid-10311",
+            "instructions": "",
+            "image":"images/10311.png",
+            "category":"Icons",
+            "price": "44.99",
+            "rrp": "44.99"
+        },
+        {
+            "name":"LEGO® Ideas Fender® Stratocaster™",
+            "description":"",
+            "longDescription":"",
+            "number":21329,
+            "link":"https://www.lego.com/en-gb/product/lego-ideas-fender-stratocaster-21329",
+            "instructions": "",
+            "image":"images/21329.png",
+            "category":"Ideas",
+            "price": "104.99",
+            "rrp": "104.99"
+        },
+        {
+            "name":"The Beatles",
+            "description":"",
+            "longDescription":"",
+            "number":31198,
+            "link":"https://www.lego.com/en-gb/product/the-beatles-31198",
+            "instructions": "",
+            "image":"images/31198_alt16.png",
+            "category":"Art",
+            "price": "0.00",
+            "rrp": "0.00"
+        }
+    ]
+}
