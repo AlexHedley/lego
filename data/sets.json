@@ -317,6 +317,19 @@
       "category": "",
       "price": "5",
       "rrp": "5"
+    },
+    {
+      "name": "Mini Tutankhamun",
+      "description": "SwanDutchman",
+      "longDescription": "",
+      "parts": 228,
+      "number": 0,
+      "link": "https://rebrickable.com/mocs/MOC-54211/SwanDutchman/mini-tutankhamun/#details",
+      "instructions": "https://bricksafe.com/files/SwanDutchman/building-instructions/tutankhamun-mini/Mini%20Tutankhamun_NL.pdf",
+      "image": "images/MiniTutankhamun.jpg",
+      "category": "",
+      "price": "0",
+      "rrp": "0"
     }
   ]
 }
