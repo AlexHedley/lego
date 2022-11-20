@@ -305,6 +305,18 @@
       "category": "",
       "price": "11.99",
       "rrp": "11.99"
+    },
+    {
+      "name": "Johnny Five",
+      "description": "$5 for instructions, £? for pieces",
+      "longDescription": "https://www.flickr.com/photos/pepa_quin/albums/72157656061153114",
+      "number": 0,
+      "link": "https://www.creationsforcharity.org/product-page/johnny-five-instructions",
+      "instructions": "",
+      "image": "images/JohnnyFive.jpg",
+      "category": "",
+      "price": "5",
+      "rrp": "5"
     }
   ]
 }
