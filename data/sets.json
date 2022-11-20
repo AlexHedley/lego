@@ -330,6 +330,19 @@
       "category": "",
       "price": "0",
       "rrp": "0"
+    },
+    {
+      "name": "LEGO® Harry Potter™ Advent Calendar",
+      "description": "",
+      "longDescription": "",
+      "parts": 305,
+      "number": 0,
+      "link": "https://www.lego.com/en-gb/product/lego-harry-potter-advent-calendar-75964",
+      "instructions": "",
+      "image": "images/75964.jpg",
+      "category": "Harry Potter",
+      "price": "29.99",
+      "rrp": "29.99"
     }
   ]
 }
