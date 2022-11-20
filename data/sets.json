@@ -293,6 +293,18 @@
       "category": "",
       "price": "8.99",
       "rrp": "8.99"
+    },
+    {
+      "name": "Birthday Set",
+      "description": "",
+      "longDescription": "",
+      "number": 40382,
+      "link": "https://www.lego.com/en-gb/product/birthday-set-40382",
+      "instructions": "",
+      "image": "images/40382.jpg",
+      "category": "",
+      "price": "11.99",
+      "rrp": "11.99"
     }
   ]
 }
