@@ -336,11 +336,24 @@
       "description": "",
       "longDescription": "",
       "parts": 305,
-      "number": 0,
+      "number": 75964,
       "link": "https://www.lego.com/en-gb/product/lego-harry-potter-advent-calendar-75964",
       "instructions": "",
       "image": "images/75964.jpg",
       "category": "Harry Potter",
+      "price": "29.99",
+      "rrp": "29.99"
+    },
+    {
+      "name": "Guardians of the Galaxy Advent Calendar",
+      "description": "",
+      "longDescription": "",
+      "parts": 268,
+      "number": 76231,
+      "link": "https://www.lego.com/en-gb/product/guardians-of-the-galaxy-advent-calendar-76231",
+      "instructions": "",
+      "image": "images/76231.png",
+      "category": "Marvel",
       "price": "29.99",
       "rrp": "29.99"
     }
