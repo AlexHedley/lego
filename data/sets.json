@@ -277,7 +277,7 @@
       "number": 21325,
       "link": "https://www.lego.com/en-gb/product/medieval-blacksmith-21325",
       "instructions": "",
-      "image": "images/21325.png",
+      "image": "images/21325.jpg",
       "category": "Ideas",
       "price": "119.99",
       "rrp": "159.99"
@@ -356,6 +356,19 @@
       "category": "Marvel",
       "price": "29.99",
       "rrp": "29.99"
+    },
+    {
+      "name": "Visual Studio",
+      "description": "",
+      "longDescription": "",
+      "parts": 48,
+      "number": 0,
+      "link": "https://github.com/microsoft/VisualStudioSwag/tree/main/Visual%20Studio%2025th%20Anniversary/Visual%20Studio%202022%20Lego%20Product%20Icon",
+      "instructions": "https://github.com/microsoft/VisualStudioSwag/blob/main/Visual%20Studio%2025th%20Anniversary/Visual%20Studio%202022%20Lego%20Product%20Icon/Instructions-VisualStudio-Lego-25th.pdf",
+      "image": "images/visualstudio.jpeg",
+      "category": "Microsoft",
+      "price": "0",
+      "rrp": "0"
     }
   ]
 }
