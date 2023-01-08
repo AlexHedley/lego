@@ -380,6 +380,84 @@
       "category": "Microsoft",
       "price": "0",
       "rrp": "0"
+    },
+    {
+      "name": "Jazz Club",
+      "description": "",
+      "longDescription": "",
+      "parts": 2899,
+      "number": 10312,
+      "link": "https://www.lego.com/en-gb/product/jazz-club-10312",
+      "instructions": "",
+      "image": "images/10312.png",
+      "category": "Icons",
+      "price": "199.99",
+      "rrp": "199.99"
+    },
+    {
+      "name": "Frodo™ & Gollum™",
+      "description": "",
+      "longDescription": "",
+      "parts": 184,
+      "number": 40630,
+      "link": "https://www.lego.com/en-gb/product/frodo-gollum-40630",
+      "instructions": "",
+      "image": "images/40630.png",
+      "category": "Brick Headz",
+      "price": "13.49",
+      "rrp": "13.49"
+    },
+    {
+      "name": "Gandalf the Grey™ & Balrog™",
+      "description": "",
+      "longDescription": "",
+      "parts": 348,
+      "number": 40631,
+      "link": "https://www.lego.com/en-gb/product/gandalf-the-grey-balrog-40631",
+      "instructions": "",
+      "image": "images/40631.png",
+      "category": "Brick Headz",
+      "price": "17.99",
+      "rrp": "17.99"
+    },
+    {
+      "name": "Aragorn™ & Arwen™",
+      "description": "",
+      "longDescription": "",
+      "parts": 261,
+      "number": 40632,
+      "link": "https://www.lego.com/en-gb/product/aragorn-arwen-40632",
+      "instructions": "",
+      "image": "images/40632.png",
+      "category": "Brick Headz",
+      "price": "17.99",
+      "rrp": "17.99"
+    },
+    {
+      "name": "Blacktron Cruiser",
+      "description": "Free with purchase in Jan 2023",
+      "longDescription": "",
+      "parts": 356,
+      "number": 40580,
+      "link": "https://www.lego.com/en-gb/product/blacktron-cruiser-40580",
+      "instructions": "",
+      "image": "images/40580.png",
+      "category": "Exclusive",
+      "price": "25.99",
+      "rrp": "25.99"
+    },
+    {
+      "name": "Lunar New Year VIP Add-On Pack",
+      "description": "Free with purchase in Jan 2023",
+      "longDescription": "",
+      "parts": 124,
+      "number": 40605,
+      "link": "https://www.lego.com/en-gb/product/lunar-new-year-vip-add-on-pack-40605",
+      "instructions": "",
+      "image": "images/40605.png",
+      "category": "Exclusive",
+      "price": "8.99",
+      "rrp": "8.99"
     }
   ]
 }
