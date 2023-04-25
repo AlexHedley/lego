@@ -524,5 +524,19 @@
       "price": "5.65",
       "rrp": "5.65"
     }
+    ,
+    {
+      "name": "Buildable 2x4 Red Brick",
+      "description": "Gift with purchase",
+      "longDescription": "",
+      "parts": 1,
+      "number": 5006085,
+      "link": "https://www.lego.com/en-gb/product/buildable-2x4-red-brick-5006085",
+      "instructions": "https://rebrickable.com/sets/5006085-1/buildable-2x4-red-brick/",
+      "image": "images/5006085.jpg",
+      "category": "",
+      "price": "0",
+      "rrp": "8.99"
+    }
   ]
 }
