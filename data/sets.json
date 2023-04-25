@@ -443,7 +443,7 @@
       "instructions": "",
       "image": "images/40580.png",
       "category": "Exclusive",
-      "price": "25.99",
+      "price": "0",
       "rrp": "25.99"
     },
     {
@@ -456,7 +456,59 @@
       "instructions": "",
       "image": "images/40605.png",
       "category": "Exclusive",
-      "price": "8.99",
+      "price": "0",
+      "rrp": "8.99"
+    },
+    {
+      "name": "THE LORD OF THE RINGS: RIVENDELL™",
+      "description": "",
+      "longDescription": "",
+      "parts": 6167,
+      "number": 10316,
+      "link": "https://www.lego.com/en-gb/product/the-lord-of-the-rings-rivendell-10316",
+      "instructions": "",
+      "image": "images/10316.png",
+      "category": "The Lord of the Rings",
+      "price": "429.99",
+      "rrp": "429.99"
+    },
+    {
+      "name": "Easter Basket",
+      "description": "Free with purchase in April 2023",
+      "longDescription": "",
+      "parts": 368,
+      "number": 40587,
+      "link": "https://www.lego.com/en-gb/product/easter-basket-40587",
+      "instructions": "",
+      "image": "images/40587.png",
+      "category": "Exclusive",
+      "price": "0",
+      "rrp": "17.99"
+    },
+    {
+      "name": "Houses of the World 2",
+      "description": "Free with purchase in April 2023",
+      "longDescription": "",
+      "parts": 270,
+      "number": 40590,
+      "link": "https://www.lego.com/en-gb/product/houses-of-the-world-2-40590",
+      "instructions": "",
+      "image": "images/40590.png",
+      "category": "Exclusive",
+      "price": "0",
+      "rrp": "17.99"
+    },
+    {
+      "name": "Spring Fun VIP Add-On Pack",
+      "description": "Free with purchase in April 2023",
+      "longDescription": "",
+      "parts": 128,
+      "number": 40606,
+      "link": "https://www.lego.com/en-gb/product/spring-fun-vip-add-on-pack-40606",
+      "instructions": "",
+      "image": "images/40606.png",
+      "category": "Exclusive",
+      "price": "0",
       "rrp": "8.99"
     }
   ]
