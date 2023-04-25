@@ -510,6 +510,19 @@
       "category": "Exclusive",
       "price": "0",
       "rrp": "8.99"
+    },
+    {
+      "name": "Ultimate LEGO Gameboy",
+      "description": "by click_lever",
+      "longDescription": "",
+      "parts": 364,
+      "number": 142243,
+      "link": "https://rebrickable.com/mocs/MOC-142243/click_lever/ultimate-lego-gameboy/",
+      "instructions": "",
+      "image": "images/MOC-142243.jpg",
+      "category": "Rebrickable",
+      "price": "5.65",
+      "rrp": "5.65"
     }
   ]
 }
