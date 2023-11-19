@@ -523,8 +523,7 @@
       "category": "Rebrickable",
       "price": "5.65",
       "rrp": "5.65"
-    }
-    ,
+    },
     {
       "name": "Buildable 2x4 Red Brick",
       "description": "Gift with purchase",
@@ -537,6 +536,58 @@
       "category": "",
       "price": "0",
       "rrp": "8.99"
+    },
+    {
+      "name": "Viking Village",
+      "description": "",
+      "longDescription": "",
+      "parts": 2103,
+      "number": 21343,
+      "link": "https://www.lego.com/en-gb/product/viking-village-21343",
+      "instructions": "",
+      "image": "images/21343.png",
+      "category": "Ideas",
+      "price": "",
+      "rrp": "£124.99"
+    },
+    {
+      "name": "Temple of the Golden Idol",
+      "description": "",
+      "longDescription": "",
+      "parts": 1545,
+      "number": 77015,
+      "link": "https://www.lego.com/en-gb/product/temple-of-the-golden-idol-77015",
+      "instructions": "",
+      "image": "images/77015.png",
+      "category": "Indiana Jones",
+      "price": "",
+      "rrp": "£129.99"
+    },
+    {
+      "name": "Fighter Plane Chase",
+      "description": "",
+      "longDescription": "",
+      "parts": 387,
+      "number": 77012,
+      "link": "https://www.lego.com/en-gb/product/fighter-plane-chase-77012",
+      "instructions": "",
+      "image": "images/77012.png",
+      "category": "Indiana Jones",
+      "price": "",
+      "rrp": "£29.99"
+    },
+    {
+      "name": "Escape from the Lost Tomb",
+      "description": "",
+      "longDescription": "",
+      "parts": 600,
+      "number": 77013,
+      "link": "https://www.lego.com/en-gb/product/escape-from-the-lost-tomb-77013",
+      "instructions": "",
+      "image": "images/77013.png",
+      "category": "Indiana Jones",
+      "price": "",
+      "rrp": "£34.99"
     }
   ]
 }
