@@ -1,191 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
 
-    <meta name="description" content="Lego" />
-    <meta name="keywords" content="Lego" />
-    <meta name="author" content="Alex Hedley" />
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/sticky-footer.css" />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
-      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
-      crossorigin="anonymous"
-    />
-    <!-- <link rel="stylesheet" href="css/jquery-ui.min.css"> -->
-    <link rel="stylesheet" href="css/jquery-ui.1.12.1.min.css" />
-    <link rel="stylesheet" href="css/styles.css" />
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <link rel="shortcut icon" href="favicon.ico" />
+  <meta name="description" content="Lego" />
+  <meta name="keywords" content="Lego" />
+  <meta name="author" content="Alex Hedley" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/sticky-footer.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+    integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous" />
+  <!-- <link rel="stylesheet" href="css/jquery-ui.min.css"> -->
+  <link rel="stylesheet" href="css/jquery-ui.1.12.1.min.css" />
+  <link rel="stylesheet" href="css/styles.css" />
 
-    <!-- Fonts -->
-    <!-- <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'> -->
+  <link rel="shortcut icon" href="favicon.ico" />
 
-    <title>Lego</title>
-  </head>
-  <body ng-app="myApp">
-    <!-- Begin page content -->
-    <main role="main" class="container">
-      <section
-        class="jumbotron title-container text-center"
-        style="background-color: #c20011"
-      >
-        <div>
-          <h1>Lego</h1>
+  <!-- Fonts -->
+  <!-- <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'> -->
 
-          <div class="row justify-content-md-center">
-            <div class="col-lg-8">
-              <div class="input-group search-bar">
-                <input
-                  type="text"
-                  class="form-control"
-                  ng-model="searchText"
-                  placeholder="Search for a Lego set..."
-                  aria-label="Search"
-                />
-                <button type="submit" class="btn btn-warning">
-                  <i class="fa fa-search"></i>
-                </button>
-              </div>
+  <title>Lego</title>
+</head>
+
+<body ng-app="myApp">
+  <!-- Begin page content -->
+  <main role="main" class="container">
+    <section class="jumbotron title-container text-center" style="background-color: #c20011">
+      <div>
+        <h1>Lego</h1>
+
+        <div class="row justify-content-md-center">
+          <div class="col-lg-8">
+            <div class="input-group search-bar">
+              <input type="text" class="form-control" ng-model="searchText" placeholder="Search for a Lego set..."
+                aria-label="Search" />
+              <button type="submit" class="btn btn-warning">
+                <i class="fa fa-search"></i>
+              </button>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <div ng-controller="myController">
-        <div class="container">
-          <div class="row justify-content-md-center">
-            <div class="">
-              <div
-                id="carouselExampleCaptions"
-                class="carousel slide"
-                data-ride="carousel"
-              >
-                <ol class="carousel-indicators">
-                  <li
-                    ng-repeat="set in sets"
-                    data-target="#carouselExampleCaptions"
-                    data-slide-to="{{$index}}"
-                  ></li>
-                </ol>
-                <div class="carousel-inner">
-                  <div
-                    ng-repeat="set in sets"
-                    class="carousel-item"
-                    ng-class="{active:$first}"
-                  >
-                    <img
-                      src="{{pathPrefix}}{{set.image}}"
-                      class="d-block w-100"
-                      alt="{{set.name}}"
-                    />
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>{{set.name}}</h5>
-                      <p>{{set.description}}</p>
-                    </div>
+    <div ng-controller="myController">
+      <div class="container">
+        <div class="row justify-content-md-center">
+          <div class="">
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li ng-repeat="set in sets" data-target="#carouselExampleCaptions" data-slide-to="{{$index}}"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div ng-repeat="set in sets" class="carousel-item" ng-class="{active:$first}">
+                  <img ng-src="{{set.image}}" class="d-block w-100" alt="{{set.name}}" />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>{{set.name}}</h5>
+                    <p>{{set.description}}</p>
                   </div>
                 </div>
-                <a
-                  class="carousel-control-prev"
-                  href="#carouselExampleCaptions"
-                  role="button"
-                  data-slide="prev"
-                >
-                  <span
-                    class="carousel-control-prev-icon"
-                    aria-hidden="true"
-                  ></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a
-                  class="carousel-control-next"
-                  href="#carouselExampleCaptions"
-                  role="button"
-                  data-slide="next"
-                >
-                  <span
-                    class="carousel-control-next-icon"
-                    aria-hidden="true"
-                  ></span>
-                  <span class="sr-only">Next</span>
-                </a>
               </div>
+              <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
             </div>
           </div>
+        </div>
 
-          <br />
+        <br />
 
-          <div class="row">
-            <div
-              ng-repeat="set in sets | filter:searchText | orderBy:'number'"
-              class="col-md-4"
-              style="margin-bottom: 50px"
-            >
-              <div class="card" style="width: 18rem">
-                <img
-                  ng-src="{{pathPrefix}}{{set.image}}"
-                  class="card-img-top"
-                  alt="{{set.name}}"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">
-                    {{set.name}}
-                    <span class="badge badge-secondary">{{set.number}}</span>
-                  </h5>
-                  <p class="card-text">{{set.description}}</p>
-                  <a
-                    ng-if="set.link.length > 0"
-                    ng-href="{{set.link}}"
-                    target="_blank"
-                    class="btn btn-primary"
-                    >Official Link</a
-                  >
-                  <a
-                    ng-if="set.instructions.length > 0"
-                    ng-href="{{set.instructions}}"
-                    target="_blank"
-                    class="btn btn-secondary"
-                    >Instructions Link</a
-                  >
-                </div>
+        <div class="row">
+          <div ng-repeat="set in sets | filter:searchText | orderBy:'number'" class="col-md-3"
+            style="margin-bottom: 50px">
+            <div class="card">
+              <img ng-src="{{set.image}}" class="card-img-top" alt="{{set.name}}" />
+              <div class="card-body">
+                <h5 class="card-title">
+                  {{set.name}}
+                  <span class="badge badge-secondary" title="Number">{{set.number}}</span>
+                  <span ng-if="set.parts > 0" class="badge badge-danger" title="Parts">{{set.parts}}</span>
+                </h5>
+                <p class="card-text">{{set.description}}</p>
+                <a ng-if="set.link.length > 0" ng-href="{{set.link}}" target="_blank" class="btn btn-primary">Official
+                  Link</a>
+                <a ng-if="set.instructions.length > 0" ng-href="{{set.instructions}}" target="_blank"
+                  class="btn btn-secondary">Instructions Link</a>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </main>
 
-    <footer class="footer">
-      <div class="container">
-        <span class="text-muted"
-          ><a href="https://alexhedley.github.io/">Alex Hedley</a>.</span
-        >
-      </div>
-    </footer>
+        <!-- <div class="row">
+          <div class="col">
+            <p>Total: £ {{sum}}</p>
+          </div>
+        </div> -->
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="js/jquery-3.7.1.min.js"></script>
-    <script>
-      window.jQuery ||
-        document.write('<script src="js/jquery-3.7.1.slim.min.js"><\/script>');
-    </script>
-    <script src="js/jquery-ui.min.js"></script>
-    <!-- <script src="js/jquery-ui.1.12.1.min.js"></script> -->
-    <!-- <script src="js/popper.min.js"></script> -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- <script src="js/jquery.pretty-text-diff.min.js"></script> -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.min.js"></script> -->
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular.min.js"></script> -->
-    <script src="js/angular.min.js"></script>
-    <script src="js/app.js"></script>
-  </body>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <span class="text-muted"><a href="https://AlexHedley.github.io/">Alex Hedley</a></span>
+      <span class="float-right"><i class="fab fa-github"></i> <a href="https://github.com/AlexHedley/lego">GitHub</a></span>
+    </div>
+  </footer>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script>
+    window.jQuery ||
+      document.write('<script src="js/jquery-3.7.1.slim.min.js"><\/script>');
+  </script>
+  <script src="js/jquery-ui.min.js"></script>
+  <!-- <script src="js/jquery-ui.1.12.1.min.js"></script> -->
+  <!-- <script src="js/popper.min.js"></script> -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- <script src="js/jquery.pretty-text-diff.min.js"></script> -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.min.js"></script> -->
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular.min.js"></script> -->
+  <script src="js/angular.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
 </html>

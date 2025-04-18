@@ -16,7 +16,8 @@ Lego
 
 ## Run
 
-`py -m http.server`
+`py -m http.server -b 127.0.0.1`  
+`python -m http.server -b 127.0.0.1`  
 
 - [local](http://localhost:8000/)
 
