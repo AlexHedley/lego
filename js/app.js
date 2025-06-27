@@ -2,10 +2,13 @@ var myApp = angular.module("myApp", []);
 
 myApp.controller("myController", function ($scope, $http, $q, $filter) {
   $scope.sets = [];
+  $scope.sets_jonathan = [];
+
   $scope.sum = 0;
 
   $scope.init = function () {
     getData();
+    getDataJonathan();
   };
 
   getData = () => {
@@ -21,6 +24,14 @@ myApp.controller("myController", function ($scope, $http, $q, $filter) {
       //   });
       //   return total;
       // };
+    });
+  };
+
+  getDataJonathan = () => {
+    var file = "data/jonathan.json";
+
+    $http.get(file).then(function (response) {
+      $scope.sets_jonathan = response.data.sets;
     });
   };
 

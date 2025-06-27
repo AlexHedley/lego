@@ -99,6 +99,33 @@
           </div>
         </div>
 
+        <div class="row">
+          <div class="col">
+            <h2>Jonathan</h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div ng-repeat="set in sets_jonathan | filter:searchText | orderBy:'number'" class="col-md-3"
+            style="margin-bottom: 50px">
+            <div class="card">
+              <img ng-src="{{set.image}}" class="card-img-top" alt="{{set.name}}" />
+              <div class="card-body">
+                <h5 class="card-title">
+                  {{set.name}}
+                  <span class="badge badge-secondary" title="Number">{{set.number}}</span>
+                  <span ng-if="set.parts > 0" class="badge badge-danger" title="Parts">{{set.parts}}</span>
+                </h5>
+                <p class="card-text">{{set.description}}</p>
+                <a ng-if="set.link.length > 0" ng-href="{{set.link}}" target="_blank" class="btn btn-primary">Official
+                  Link</a>
+                <a ng-if="set.instructions.length > 0" ng-href="{{set.instructions}}" target="_blank"
+                  class="btn btn-secondary">Instructions Link</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <!-- <div class="row">
           <div class="col">
             <p>Total: £ {{sum}}</p>
