@@ -109,7 +109,7 @@
           <div ng-repeat="set in sets_jonathan | filter:searchText | orderBy:'number'" class="col-md-3"
             style="margin-bottom: 50px">
             <div class="card">
-              <img ng-src="{{set.image}}" class="card-img-top" alt="{{set.name}}" />
+              <img ng-if="set.image.length > 0" ng-src="{{set.image}}" class="card-img-top" alt="{{set.name}}" />
               <div class="card-body">
                 <h5 class="card-title">
                   {{set.name}}
