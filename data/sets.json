@@ -1075,6 +1075,32 @@
       "rrp": ""
     },
     {
+      "name": "Birthday Party Cake",
+      "description": "",
+      "longDescription": "",
+      "parts": 219,
+      "number": 40815,
+      "link": "https://www.lego.com/en-gb/product/birthday-party-cake-40815",
+      "instructions": "https://www.lego.com/en-gb/service/building-instructions/40815",
+      "image": "images/40815.png",
+      "category": "",
+      "price": "",
+      "rrp": "£12.99"
+    },
+    {
+      "name": "Game Boy™",
+      "description": "",
+      "longDescription": "",
+      "parts": 307,
+      "number": 72046,
+      "link": "https://www.lego.com/en-gb/product/game-boy-72046",
+      "instructions": "https://www.lego.com/en-gb/service/building-instructions/72046",
+      "image": "images/72046.png",
+      "category": "LEGO® Super Mario™",
+      "price": "",
+      "rrp": "£54.99"
+    },
+    {
       "name": "Sting Sword ",
       "description": "",
       "longDescription": "",
